@@ -1,19 +1,41 @@
-.color-blue {
-    color: darkblue;
-    font-family: 'Roboto', sans-serif;
+.commentary {
+    color: black;
+    font-family: 'Roboto', serif;
     font-weight: 500;
     font-style: italic;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    margin-top: 25px;
 }
 
-.color-grey {
+.journal {
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    margin-bottom: 20px;
 }
 
 body {
     background-color: #ffffff;
     color: black;
     font-family: 'Roboto', sans-serif;
-    font-weight: 500;
+    font-weight: 400;
+    padding: 5vw;
+}
+
+h2 {
+    text-align: center;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    border: 1px solid lightgrey;
+}
+
+.image {
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    padding: 10px;
 }
